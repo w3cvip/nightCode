@@ -1,0 +1,60 @@
+{
+    "pages": [
+        "pages/tabar/index/index",
+        "pages/tabar/find/index",
+        "pages/tabar/reserve/index",
+        "pages/tabar/message/index",
+        
+        "pages/tabar/nightclub/index",
+        "pages/tabar/my/index",
+        "pages/index/index",
+        "pages/logs/logs"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#cca4e3",
+        "navigationBarTitleText": "夜友",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#cca4e3",
+        "backgroundColorTop": "#cca4e3",
+        "backgroundColorBottom": "#cca4e3"
+    },
+    "tabBar": {
+        "color": "#BFBFBF",
+        "selectedColor": "#e1244e",
+        "borderStyle": "black",
+        "backgroundColor": "#fff",
+        "position":"bottom",
+        "list": [{
+                "pagePath": "pages/tabar/index/index",
+                "iconPath": "images/tabar/pathReserve.png",
+                "selectedIconPath": "images/tabar/selectReserve.png",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/tabar/nightclub/index",
+                "iconPath": "images/tabar/pathNightclub.png",
+                "selectedIconPath": "images/tabar/selectNightclub.png",
+                "text": "夜店"
+            },
+            {
+                "pagePath": "pages/tabar/find/index",
+                "iconPath": "images/tabar/pathFind.png",
+                "selectedIconPath": "images/tabar/selectFind.png",
+                "text": "发现"
+            },
+            {
+                "pagePath": "pages/tabar/my/index",
+                "iconPath": "images/tabar/pathMyinfo.png",
+                "selectedIconPath": "images/tabar/selectMyinfo.png",
+                "text": "我的"
+            }
+        ]
+    },
+    "networkTimeout": {
+        "request": 60000,
+        "connectSocket": 60000,
+        "uploadFile": 60000,
+        "downloadFile": 60000
+    }
+}

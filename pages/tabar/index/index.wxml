@@ -1,0 +1,54 @@
+<view class="page">
+	<view class="index_home">
+		<view class="index_search">
+			<view bindtap="search"><i class="iconfont icon-search"></i>某某大KTV</view>
+		</view>
+		<view class="index_banner">
+			<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+				<block wx:for="{{imgUrls}}" wx:key="index">
+					<swiper-item>
+						<image src="{{item}}" class="slide-image" mode="scaleToFill"/>
+					</swiper-item>
+				</block>
+			</swiper>
+		</view>
+		<view class="index_tab">
+			<view class="page__bd page__bd_spacing">
+				<view class="weui-flex">
+					<view class="weui-flex__item">热门夜店</view>
+					<view class="weui-flex__item">高薪招聘</view>
+					<view class="weui-flex__item">推荐夜店</view>
+				</view>
+			</view>
+		</view>
+		<view class="index_list" hover-class="none" hover-stop-propagation="false">
+			<view class="list_header">
+				<view class="search">热门夜店</view>
+				<view class="tab"  bindtap="indexList">
+					<view class="item {{isitem === 0 ? 'isitem':''}}" id='recommend'>
+						推荐
+					</view>
+					<view class="item {{isitem === 0 ? '':'isitem'}}" id='newest'>
+						最新
+					</view>
+				</view>
+			</view>
+			<view class="list_item">
+				<view class="item" wx:for="{{items}}">
+					<view class="images">
+						<image src="../../../images/13425191141.png" mode="scaleToFill"></image>
+					</view>
+					<view class="item_content">
+						<view class="title">兰桂坊CoCo酒吧慢摇吧</view>
+						<view class="content">[兰桂坊]百威啤酒套餐</view>
+						<view class="prize"><span>¥</span>398</view>
+						<view class="discount">
+							<i-tag class="i-tags" name="标签一" type="border" color="red">满200减20</i-tag>
+							<i-tag class="i-tags" name="标签一" type="border" color="green">3.9折</i-tag>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>
