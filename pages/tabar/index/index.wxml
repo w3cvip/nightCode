@@ -34,7 +34,7 @@
 				</view>
 			</view>
 			<view class="list_item">
-				<view class="item" wx:for="{{items}}">
+				<view class="item" wx:for="{{items}}" wx:key="{{index}}" bindtap='listItem' data-id='{{index}}'>
 					<view class="images">
 						<image src="../../../images/13425191141.png" mode="scaleToFill"></image>
 					</view>

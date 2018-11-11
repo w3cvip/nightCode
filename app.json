@@ -4,11 +4,10 @@
         "pages/tabar/find/index",
         "pages/tabar/reserve/index",
         "pages/tabar/message/index",
-        
         "pages/tabar/nightclub/index",
         "pages/tabar/my/index",
-        "pages/index/index",
-        "pages/logs/logs"
+        "pages/logs/logs",
+        "pages/index/list_item/index"
     ],
     "window": {
         "backgroundTextStyle": "light",

@@ -12,22 +12,27 @@ Page({
 		interval: 5000,
 		duration: 1000,
 		isitem: 0,
-		items:20
+		items: 20
 	},
-	search() { 
+	search() {
 		console.info('333')
 	},
-	indexList(e) { 
+	indexList(e) {
 		let id = e.target.id
 		if (id === 'recommend') {
 			this.setData({
 				isitem: 0
 			})
-		} else { 
+		} else {
 			this.setData({
 				isitem: 1
 			})
 		}
+	},
+	listItem(e) {
+		wx.navigateTo({
+			url: '/pages/index/list_item/index?id=' + e.currentTarget.dataset.id
+		})
 	}
 
 })

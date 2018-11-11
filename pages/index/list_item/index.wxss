@@ -1,0 +1,45 @@
+.list_item_index{
+    width:90%;
+    margin:0 auto;
+}
+.list_item_index_title{
+    margin-top: 40rpx;
+}
+.list_item_index_title .title{
+    font-size: 35rpx;
+    color: #000000;
+}
+.list_item_index_title .describe{
+    font-size: 24rpx;
+    color: #999999;
+    margin-top: 10rpx;
+}
+.list_item_index_tab{
+    margin-top: 40rpx;
+    overflow: hidden;
+    border-bottom: 1rpx solid #dddddd;
+}
+.list_item_index_tab .item{
+    display: inline-block;
+    margin-right: 20rpx;
+    color: #999999;
+}
+.isitem{
+    color: #000000!important;
+    border-bottom: 3rpx solid #f20c00
+}
+.list_item_index_content{
+     flex: 1;
+}
+.list_item_index_content .images{
+    width:100%;
+    height:160px;
+    margin:0 auto;
+    overflow:hidden;
+    border-radius:5% ;
+    margin-top: 40rpx;
+}
+.list_item_index_content .content{
+    margin-top: 40rpx;
+    color: #999999;
+}

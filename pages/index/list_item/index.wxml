@@ -1,0 +1,30 @@
+<view class="page">
+    <view class="list_item_index">
+        <view class="list_item_index_title">
+            <view class="title">
+                兰桂坊CoCo酒吧慢摇吧
+            </view>
+            <view class="describe">
+                兰桂坊CoCo酒吧慢摇吧描述
+            </view>
+        </view>
+        <view class="list_item_index_tab">
+           <view class="tab"  bindtap="indexList">
+					<view class="item {{isitem === 0 ? 'isitem':''}}" id='recommend'>
+						推荐
+					</view>
+					<view class="item {{isitem === 0 ? '':'isitem'}}" id='newest'>
+						最新
+					</view>
+			</view> 
+        </view>
+        <view class="list_item_index_content">
+            <view class="images">
+				<image src="../../../images/13425191141.png" mode="scaleToFill"></image>
+			</view>
+            <view class="content">
+                详情描述
+			</view>
+        </view>
+    </view>
+</view>
