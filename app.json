@@ -1,13 +1,10 @@
 {
     "pages": [
         "pages/tabar/index/index",
-        "pages/tabar/find/index",
-        "pages/tabar/reserve/index",
-        "pages/tabar/message/index",
-        "pages/tabar/nightclub/index",
+        "pages/tabar/order/index",
         "pages/tabar/my/index",
-        "pages/logs/logs",
-        "pages/index/list_item/index"
+        "pages/index/list_item/index",
+        "pages/oauth/index"
     ],
     "window": {
         "backgroundTextStyle": "light",
@@ -31,16 +28,10 @@
                 "text": "首页"
             },
             {
-                "pagePath": "pages/tabar/nightclub/index",
-                "iconPath": "images/tabar/pathNightclub.png",
-                "selectedIconPath": "images/tabar/selectNightclub.png",
-                "text": "夜店"
-            },
-            {
-                "pagePath": "pages/tabar/find/index",
+                "pagePath": "pages/tabar/order/index",
                 "iconPath": "images/tabar/pathFind.png",
                 "selectedIconPath": "images/tabar/selectFind.png",
-                "text": "发现"
+                "text": "订单"
             },
             {
                 "pagePath": "pages/tabar/my/index",

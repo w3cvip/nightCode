@@ -1,3 +1,102 @@
 <view class="page">
-    <view>我的</view>
+    <view class="my">
+        <view class="my_content">
+            <view class="my_info">
+                <view class="avatar">
+                    <image class="" src="{{avatarUrl}}" mode="aspectFit|aspectFill|widthFix" lazy-load="true"></image>
+                </view>
+                <view class="setting_infos">
+                    <view class="">{{nickName}}</view>
+                    <view class="">个人信息></view>
+                </view>
+            </view>
+            <view class="my_componet">
+                <view class="my_common">
+                    <view class="item">
+                        <i class="iconfont icon-qianbao"></i>
+                        <view class="">我的会员</view>
+                    </view>
+                    <view class="item">
+                        <i class="iconfont icon-qianbao"></i>
+                        <view class="">我的收藏</view>
+                    </view>
+                    <view class="item">
+                        <i class="iconfont icon-qianbao"></i>
+                        <view class="">我的地址</view>
+                    </view>
+                    <view class="item">
+                        <i class="iconfont icon-qianbao"></i>
+                        <view class="">我的订单</view>
+                    </view>
+                    <view class="item">
+                        <i class="iconfont icon-qianbao"></i>
+                        <view class="">我的足迹</view>
+                    </view>  
+                </view>
+            </view>
+            <view class="my_componet">
+                <view class="header">我的资产</view>
+                <view class="my_common">
+                    <view class="item">
+                        <i class="iconfont icon-qianbao"></i>
+                        <view class="">我的会员</view>
+                    </view>
+                    <view class="item">
+                        <i class="iconfont icon-qianbao"></i>
+                        <view class="">我的收藏</view>
+                    </view>
+                    <view class="item">
+                        <i class="iconfont icon-qianbao"></i>
+                        <view class="">我的地址</view>
+                    </view>
+                    <view class="item">
+                        <i class="iconfont icon-qianbao"></i>
+                        <view class="">我的订单</view>
+                    </view>
+                    <view class="item">
+                        <i class="iconfont icon-qianbao"></i>
+                        <view class="">我的足迹</view>
+                    </view>  
+                </view>
+            </view>
+            <view class="my_componet">
+                <view class="header">我的服务</view>
+                <view class="my_common">
+                    <view class="item">
+                        <i class="iconfont icon-qianbao"></i>
+                        <view class="">建议反馈</view>
+                    </view>
+                    <view class="item">
+                        <i class="iconfont icon-qianbao"></i>
+                        <view class="">客服中心</view>
+                    </view>
+                    <view class="item">
+                        <i class="iconfont icon-qianbao"></i>
+                        <view class="">联系我们</view>
+                    </view>
+                    <view class="item">
+                        <i class="iconfont icon-qianbao"></i>
+                        <view class="">关于我们</view>
+                    </view>
+                </view>
+            </view>
+            <view class="my_componet">
+                <view class="header">更多推荐</view>
+                <view class="my_common">
+                    <view class="item">
+                        <i class="iconfont icon-qianbao"></i>
+                        <view class="">邀请有奖</view>
+                    </view>
+                    <view class="item">
+                        <i class="iconfont icon-qianbao"></i>
+                        <view class="">商家入驻</view>
+                    </view>
+                    <view class="item">
+                        <i class="iconfont icon-qianbao"></i>
+                        <view class="">我要合作</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
 </view>

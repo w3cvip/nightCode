@@ -1,0 +1,9 @@
+{
+    "navigationBarTitleText": "订单",
+    "usingComponents": {
+        "i-tag": "../../../dist/iview/tag/index",
+        "i-sticky": "../../../dist/iview/sticky/index",
+        "i-sticky-item": "../../../dist/iview/sticky-item/index"
+    }
+   
+}

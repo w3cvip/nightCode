@@ -1,0 +1,113 @@
+.order{
+    position: relative;
+    width: 100%;
+}
+.order_content{
+    height: 100%;
+    position: relative;
+}
+.order_common_top{
+    width: 100%;
+    display: flex;
+    align-items:flex-end;
+}
+.order_header{
+    width: 100%;
+    display: flex;
+    background: #fff;
+    height: 80rpx;
+    line-height: 80rpx;
+    /* border-bottom:1px solid rgba(215,215,215,1); */
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+.order_header .menu_list{
+    flex: 1;
+    text-align: center;
+    font-size:26rpx;
+    color:#999;
+    transition: all .3s;
+}
+.order_header .menu_list.active{
+    font-weight: bold;
+    position: relative;
+    color: #000;
+}
+.order_header .menu_list.active::after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 50%;
+    width: 60rpx;
+    height: 4rpx;
+    margin-left: -30rpx;
+    background:#ff4777;
+}
+.order_list{
+    padding: 20rpx;
+    position: relative;
+    margin-top: 100rpx;
+    height: 80rpx;
+    line-height: 80rpx;
+}
+.order_list .item{
+    padding: 20rpx;
+    background-color: #fff;
+    border-radius: 10rpx;
+    margin-bottom: 20rpx;
+}
+.shop_name{
+    width: 100%;
+    display: flex;
+    padding: 0 0 10rpx 0;
+    border-bottom: 1rpx solid #eee;
+}
+.shop_info{
+    flex: 1;
+    display: flex;
+    align-items:center;
+}
+.item_status{
+    width: 100rpx;
+}
+.shop_info image{
+    width: 60rpx;
+    height: 60rpx;
+    border-radius: 50%;
+    display: block;
+    margin-right: 10rpx;
+}
+.item_status{
+    color: #ff4e20;
+    margin: 0 10rpx;
+    font-size: 26rpx;
+}
+.item_info{
+    padding: 10rpx 0;
+    position: relative;
+    border-bottom: 1rpx solid #eee;
+}
+.item_info .info view{
+    margin: 0;
+    height: 50rpx;
+    line-height: 50rpx;
+    font-size: 26rpx;
+}
+.item_type{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 20rpx 0 0;
+}
+.item_type view{
+    width: 140rpx;
+    height: 50rpx;
+    line-height: 50rpx;
+    border-radius: 10rpx;
+    text-align: center;
+    color: #ff4e20;
+    font-size: 26rpx;
+    border:1px solid #ff4e20;
+    float: right;
+}

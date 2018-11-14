@@ -1,7 +1,0 @@
-{
-    "navigationBarTitleText": "发现",
-    "usingComponents": {
-        "i-rate": "../../../dist/iview/rate/index",
-        "i-tag": "../../../dist/iview/tag/index"
-    }
-}

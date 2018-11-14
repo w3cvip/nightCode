@@ -1,0 +1,60 @@
+.my{
+    position: relative;
+    width: 100%;
+}
+.my_content{
+    width: 100%;
+    position: relative;
+}
+.my_info{
+    background-color: #cca4e3;
+    display: flex;
+    align-items: center;
+    padding: 20rpx;
+    border-bottom: 1px solid #eeeeee;
+}
+.my_info .avatar{
+    width: 100rpx;
+    height: 100rpx;
+    margin-right: 20rpx;
+}
+.my_info .avatar image{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.setting_infos view:nth-child(2){
+    color: #000000;
+    font-size: 26rpx;
+}
+.my_componet{
+    background-color: #ffffff;
+    padding: 20rpx 30rpx;
+    position: relative;
+    margin-bottom: 20rpx;
+}
+.my_common{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:10rpx 0;
+}
+.my_common .item{
+    position: relative;
+    flex: 0 0 25%;
+    text-align: center;
+}
+.my_common .item .iconfont{
+    font-size: 24px;
+}
+.my_common .item view{
+    font-size: 24rpx;
+    text-align: center;
+}
+.my_componet .header{
+    height: 50rpx;
+    border-bottom: 1rpx solid #eeeeee;
+    font-size: 26rpx;
+    color: #000000;
+}

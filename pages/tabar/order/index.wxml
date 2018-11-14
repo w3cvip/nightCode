@@ -1,0 +1,38 @@
+<view class="page">
+    <view class="order">
+        <view class="order_content">
+            <view class="order_frequent">
+                <view class="order_header">
+                    <view class="menu_list {{itemIndex === index ? 'active' : ''}}" wx:for="{{menuList}}" wx:key="{{index}}" bindtap="menuItem" data-index='{{index}}'>{{item}}</view>
+                </view>
+                <view class="order_list">
+                    <view class="item" wx:for="{{orderList}}" wx:key="{{index}}">
+                        <view class="shop_name">
+                            <view class="shop_info">
+                                <image class="" src="../../../images/13425191141.png" mode="aspectFit|aspectFill|widthFix" lazy-load="true"></image>
+                                <text class="">{{item.shopname}}</text>
+                            </view>
+                            <view class="item_status" wx:if="{{item.status === 0}}">已完成</view>
+                            <view class="item_status" wx:if="{{item.status === 1}}">待付款</view>
+                            <view class="item_status" wx:if="{{item.status === 2}}">待使用</view>
+                            <view class="item_status" wx:if="{{item.status === 3}}">退款成功</view>
+                        </view>
+                        <view class="item_info">
+                            <view class="info">
+                                <view class="">时间：{{item.time}}</view>
+                                <view class="">总价：¥{{item.prize}}</view>
+                                <view class="">套餐：{{item.setmeal}}</view>
+                            </view>
+                        </view>
+                        <view class="item_type">
+                            <view class="" wx:if="{{item.type === 0}}">再来一单</view>
+                            <view class="" wx:if="{{item.type === 1}}">去付款</view>
+                            <view class="" wx:if="{{item.type === 2}}">去使用</view>
+                            <view class="" wx:if="{{item.type === 3}}">退款进度</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
